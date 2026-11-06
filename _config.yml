@@ -1,0 +1,8 @@
+title: タイムバケット サポート
+lang: ja
+url: https://okapiron.github.io
+baseurl: /timebucket-support
+theme: jekyll-theme-minimal
+exclude:
+  - PUBLISHING.md
+  - README.md
