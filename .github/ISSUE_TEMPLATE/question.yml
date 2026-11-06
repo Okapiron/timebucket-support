@@ -1,0 +1,21 @@
+name: 質問・改善のご要望
+description: 使い方の質問や改善のご要望を送る
+title: "[お問い合わせ] "
+body:
+  - type: markdown
+    attributes:
+      value: 投稿内容は公開されます。個人の写真・メモ、生年月日、バックアップファイル、認証情報は添付しないでください。
+  - type: textarea
+    id: request
+    attributes:
+      label: ご質問・ご要望
+      description: どの操作について、何をしたいかを記載してください。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 公開内容の確認
+      options:
+        - label: 投稿は公開されることを理解し、個人情報やバックアップファイルを含めていません。
+          required: true
